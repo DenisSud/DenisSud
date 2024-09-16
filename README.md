@@ -1,5 +1,6 @@
 # 🚀 Passionate AI, ML & Prompt Engineering Developer | Shaping the Future of Tech 🤖
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=denissud)](https://github.com/anuraghazra/github-readme-stats)
+
 Hello, tech enthusiasts! I'm an AI, Machine Learning, and Prompt Engineering developer with a burning passion for pushing the boundaries of what's possible in the world of technology. Currently honing my skills in Computer Science at MSU, I thrive on crafting innovative solutions to complex problems using cutting-edge ML, deep learning, and prompt engineering techniques.
 
 ## 💡 My Mission
