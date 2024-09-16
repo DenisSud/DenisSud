@@ -38,8 +38,6 @@ I've brought numerous ideas to life through ML, AI, and prompt engineering. Here
 4. 📊 **Predictive Analytics Dashboard**: Designed a system for forecasting sales trends using historical data.
 5. 🗣️ **Multilingual Translation Model**: Fine-tuned a transformer model for accurate translations across 10+ languages.
 
-*Explore my repositories to see these projects and more in action!*
-
 ## 🌟 Let's Connect!
 Are you excited about the limitless potential of AI, ML, and prompt engineering? Let's join forces and create something extraordinary! Whether you're looking to collaborate on a groundbreaking project or just want to geek out about the latest in tech, I'm always eager to connect with fellow innovators.
 
