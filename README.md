@@ -4,17 +4,17 @@ Machine Learning Engineer specializing in Deep Learning, Reinforcement Learning,
 
 ## About Me
 
-I'm a student at Michigan State University with a passion for artificial intelligence that began at age 15. Having spent years studying machine learning and AI through both self-directed learning and formal education (including Stanford CS229, CS230 and Harvard CS50 AI), my research focuses on advanced deep learning techniques, particularly in language modeling and reinforcement learning. I combine theoretical understanding with practical implementation to develop scalable AI solutions.
+I'm a student at MSU with a passion for artificial intelligence that began at age 15. Having spent years studying machine learning and AI through both self-directed learning and formal education (including Stanford CS229, CS230 and Harvard CS50 AI), my research focuses on advanced deep learning techniques, particularly in language modeling and reinforcement learning. I combine theoretical understanding with practical implementation to develop scalable AI solutions.
 
 ## Technical Expertise
 
 ### Core Technologies
-- **Deep Learning**: Tensorflow, PyTorch, Transformers
+- **Deep Learning**: PyTorch-Lightning, PyTorch, Transformers
 - **Language Models**: LLM fine-tuning, prompt engineering, multi-agent systems (huggingface)
 - **ML Infrastructure**: Distributed training, model optimization, deployment pipelines
 
 ### Languages
-- Python (Primary): PyTorch, TensorFlow
+- Python (Primary): ML and Data Science
 - Go: High-performance backend systems
 - Rust: For small personal projects
 
