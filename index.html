@@ -9,9 +9,6 @@
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- HTMX -->
-    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
-
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -29,108 +26,154 @@
                 <a href="https://denissud.github.io" class="text-xl font-semibold text-white hover:scale-105 transition-transform">
                     denissud.github.io
                 </a>
-                <ul class="flex space-x-6">
-                    <li>
-                        <button class="pb-1 border-b-2 border-white text-white hover:scale-110 transition-transform"
-                                hx-get="partials/projects.html"
-                                hx-target="#tab-content"
-                                hx-swap="innerHTML transition:fade">
-                            Projects
-                        </button>
-                    </li>
-                    <li>
-                        <button class="pb-1 text-gray-400 hover:text-white hover:scale-110 transition-transform"
-                                hx-get="partials/experience.html"
-                                hx-target="#tab-content"
-                                hx-swap="innerHTML transition:fade">
-                            Experience
-                        </button>
-                    </li>
-                    <li>
-                        <button class="pb-1 text-gray-400 hover:text-white hover:scale-110 transition-transform"
-                                hx-get="partials/blog.html"
-                                hx-target="#tab-content"
-                                hx-swap="innerHTML transition:fade">
-                            Blog
-                        </button>
-                    </li>
-                </ul>
+                <div class="flex space-x-6 text-2xl">
+                    <a href="https://github.com/DenisSud" aria-label="GitHub"
+                        class="hover:text-white hover:scale-120 transition-transform">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://t.me/DenisSud2" aria-label="Telegram"
+                        class="hover:text-white hover:scale-120 transition-transform">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="mailto:sudakov.denis.2007@gmail.com" aria-label="Email"
+                        class="hover:text-white hover:scale-120 transition-transform">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
             </div>
         </nav>
 
-        <!-- Content columns -->
-        <div class="relative z-10 max-w-6xl mx-auto px-6 pt-24 pb-16 flex flex-col lg:flex-row gap-12">
-            <!-- Left: About Me -->
-            <div class="lg:w-1/2 space-y-6">
-                <h1 class="text-4xl sm:text-5xl font-bold text-white opacity-0 animate-fade-in">
+        <!-- Main Content -->
+        <div class="relative z-10 max-w-3xl mx-auto px-6 pt-24 pb-16">
+            <!-- Header Section -->
+            <header class="text-center mb-16">
+                <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4 opacity-0 animate-fade-in">
                     Denis Sudakov
                 </h1>
-                <p class="text-lg max-w-md opacity-0 animate-fade-in" style="animation-delay: 300ms">
+                <p class="text-xl max-w-md mx-auto opacity-0 animate-fade-in" style="animation-delay: 300ms">
                     Fueling models with coffee and code.
                 </p>
-                <p class="text-base max-w-md text-gray-300">
+            </header>
+            
+            <!-- About Section -->
+            <section class="mb-16 bg-black bg-opacity-30 backdrop-blur-md rounded-2xl p-6">
+                <h2 class="text-2xl font-semibold text-white mb-4">About Me</h2>
+                <p class="text-base text-gray-300 mb-6">
                     I'm a student at Moscow State University with a passion for AI that began at age 15. I've combined formal courses
                     (Stanford CS229, CS230; Harvard CS50 AI) with hands-on research in deep learning, reinforcement learning, and large
                     language models to build scalable AI solutions.
                 </p>
 
-                <!-- Contacts -->
-                <div class="flex space-x-6 text-2xl mt-4">
-                    <a href="https://github.com/DenisSud" aria-label="GitHub" class="hover:text-white hover:scale-120 transition-transform">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://t.me/DenisSud2" aria-label="Telegram" class="hover:text-white hover:scale-120 transition-transform">
-                        <i class="fab fa-telegram"></i>
-                    </a>
-                    <a href="mailto:sudakov.denis.2007@gmail.com" aria-label="Email" class="hover:text-white hover:scale-120 transition-transform">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                </div>
-
-                <!-- Technical Expertise & Research Interests -->
-                <div class="mt-6">
-                    <h3 class="font-semibold text-white mb-2">Technical Expertise</h3>
-                    <ul class="list-disc list-inside space-y-1 text-sm text-gray-300">
-                        <li><strong>Deep Learning</strong>: PyTorch-Lightning, PyTorch, Transformers</li>
-                        <li><strong>Language Models</strong>: LLM fine-tuning, prompt engineering, multi-agent systems</li>
-                        <li><strong>ML Infrastructure</strong>: Distributed training, model optimization, deployment pipelines</li>
-                    </ul>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Technical Expertise -->
+                    <div>
+                        <h3 class="font-semibold text-white mb-2">Technical Expertise</h3>
+                        <ul class="list-disc list-inside space-y-1 text-sm text-gray-300">
+                            <li><strong>Deep Learning</strong>: PyTorch-Lightning, PyTorch, Transformers</li>
+                            <li><strong>Language Models</strong>: LLM fine-tuning, prompt engineering, multi-agent systems</li>
+                            <li><strong>ML Infrastructure</strong>: Distributed training, model optimization, deployment pipelines</li>
+                        </ul>
                     </div>
-                    
-                    <div class="mt-4">
+
+                    <!-- Languages & Research Interests -->
+                    <div>
                         <h3 class="font-semibold text-white mb-2">Languages & Research Interests</h3>
                         <ul class="list-disc list-inside space-y-1 text-sm text-gray-300">
                             <li><strong>Languages</strong>: Python (primary), Go, Rust</li>
-                            <li><strong>Research</strong>: Large Language Models, Reinforcement Learning, Novel Deep Learning Architectures
-                            </li>
-                    </ul>
-                </div>
-            </div>
+                            <li><strong>Research</strong>: Large Language Models, Reinforcement Learning, Novel Deep Learning Architectures</li>
+                            </ul>
+                            </div>
+                            </div>
+                            </section>
+                            
+                            <!-- Experience Section -->
+                            <section class="mb-16 bg-black bg-opacity-30 backdrop-blur-md rounded-2xl p-6">
+                                <h2 class="text-2xl font-semibold text-white mb-4">Experience</h2>
+                                <ul class="list-disc list-inside text-gray-300 text-sm space-y-2">
+                                    <li>
+                                        <strong>Undergraduate Student</strong> @ Moscow State University (2023 – Present)
+                                    </li>
+                                    <li>
+                                        <strong>Freelance ML Engineer</strong> (2022 – Present)
+                                    </li>
+                                </ul>
+            </section>
+            
+            <!-- Projects Section -->
+            <section class="bg-black bg-opacity-30 backdrop-blur-md rounded-2xl p-6">
+                <h2 class="text-2xl font-semibold text-white mb-6">Projects</h2>
+            
+                <!-- PaperTuner -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-white">
+                        <a href="https://github.com/Lyra-Lab/papertuner" class="hover:underline">
+                            PaperTuner
+                        </a>
+                    </h3>
+                    <span class="text-sm text-gray-400">Apr 2025</span>
+                    <p class="text-sm text-gray-300 mt-2">
+                        Fine-tune any thinking LLM using GROQ with scientific knowledge and logic extracted from the latest research
+                        papers.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Python</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">PyTorch</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Transformers</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">GROQ</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Research</span>
+                    </div>
+                    </div>
 
-            <!-- Right: Tabs with scrollable content and fade overlay -->
-            <div class="relative lg:w-1/2 p-6 bg-black bg-opacity-30 backdrop-blur-md rounded-2xl" style="min-height: 320px">
-                <!-- Scrollable area -->
-                <div class="relative h-full overflow-y-auto pr-2">
-                    <div id="tab-content" class="space-y-6">
-                        <!-- Default content (Projects) will be loaded here -->
+                <!-- Madiz Radiation Detector -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-white">
+                        <a href="https://github.com/DenisSud/madiz" class="hover:underline">
+                            Madiz Radiation Detector
+                        </a>
+                    </h3>
+                    <span class="text-sm text-gray-400">Jan 2025</span>
+                    <p class="text-sm text-gray-300 mt-2">
+                        Backend logic for a satellite-based radiation detection system using Raspberry Pi and PiCam with advanced
+                        compression algorithms.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Python</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Raspberry Pi</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">PiCam</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Compression</span>
+                        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Satellite</span>
                     </div>
                 </div>
-                <!-- Fade overlay at bottom -->
-                <div class="pointer-events-none absolute inset-x-0 bottom-6 h-12 bg-gradient-to-t from-black to-transparent rounded-b-2xl"></div>
+<!-- Crew Creator -->
+<div>
+    <h3 class="text-xl font-semibold text-white">
+        <a href="https://github.com/DenisSud/crew-creator" class="hover:underline">
+            Crew Creator
+        </a>
+    </h3>
+    <span class="text-sm text-gray-400">Feb 2025</span>
+    <p class="text-sm text-gray-300 mt-2">
+        An LLM agent framework that assembles custom model "crews" tailored for specific tasks using multi-agent
+        collaboration.
+    </p>
+    <div class="flex flex-wrap gap-2 mt-2">
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Agents</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">TypeScript</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Node.js</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">LLMs</span>
+        <span class="text-xs px-2 py-1 bg-white bg-opacity-10 rounded-full">Collaboration</span>
+    </div>
+</div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="mt-16 text-center text-sm text-gray-400">
+                <p>© 2025 Denis Sudakov</p>
+            </footer>
             </div>
-        </div>
-
-
     </div>
 
     <!-- Custom JS -->
     <script src="js/main.js"></script>
-
-    <!-- Initialize the first tab content -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            htmx.ajax('GET', 'partials/projects.html', {target: '#tab-content'});
-        });
-    </script>
 </body>
 </html>
