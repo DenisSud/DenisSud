@@ -58,9 +58,35 @@ html {
 /* Section styling */
 section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+        overflow: hidden;
 }
 
 section:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
 }
+/* Glass effect enhancement */
+
+/* Add subtle glow to links */
+a {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+a:hover {
+    text-shadow: 0 0 8px rgba(134, 129, 161, 0.5);
+}
+
+/* Custom selection color */
+::selection {
+    background-color: rgba(134, 129, 161, 0.3);
+    color: #f0f0f0;
+}
+
+/* Add subtle accent colors to strong elements */
+strong {
+    color: #8681a1;
+}
+
+/* Section hover effect */
