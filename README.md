@@ -8,7 +8,7 @@ I'm a student at **MSU**. My passion for artificial intelligence began at age 15
 
 ## Education
 **Moscow State University (MSU)**  
-*Faculty of Physics*
+*Bachlors degree, Faculty of Physics*
 
 **Additional Education**  
 - **Stanford University (online):**  
