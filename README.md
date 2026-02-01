@@ -26,14 +26,15 @@ I'm a student at **MSU**. My passion for artificial intelligence began at age 15
 - **ML Infrastructure**: Distributed training, optimization, deployment, MLOps
 
 ### Languages
-- Python (Primary): ML and Data Science
+(these are ordered from most to least experience)
+- Python (Primary): for ML and non-performance centric side projects
 - Go: High-performance backend systems
 - Rust: Embedded systems & performance-critical components
 
-### Specialized Skills
-- **Low-Level Optimization**: SIMD (AVX2/NEON), lock-free allocators, bit-packing  
-- **Embedded Systems**: RTOS (FreeRTOS), sensor fusion, device drivers, energy-efficient computing  
-- **ML Efficiency**: Model quantization (GGUF/NF4), distillation, mixed precision  
+### Fun Skills I've acquired
+- **Embedded Systems**: RTOS (FreeRTOS), sensor fusion, device drivers
+- **ML Efficiency**: Model quantization (quantization, custom kernels), distillation, LoRA training
+- **NixOS Configuration**: Battling with Cuda (and even winning sometimes), multi device configuratons, modularity
 
 ## Connect
 
