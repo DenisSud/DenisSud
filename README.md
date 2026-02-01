@@ -4,7 +4,7 @@ Machine Learning Engineer specializing in Deep Learning and Large Language Model
 
 ## About Me
 
-I'm a student at **MSU**. My passion for artificial intelligence began at age 15. Having spent years studying ML/AI through both self-directed learning and formal education (including Stanford CS229, CS230, CS25 and Harvard CS50 AI), my research focuses on advanced deep learning techniques, particularly in language modeling.
+I'm a student at **MSU**. My passion for artificial intelligence began at age 15. Having spent years studying ML/AI through both self-directed learning and formal education (including Stanford CS229, CS230, CS25 and Harvard CS50 AI), my research focuses on advanced deep learning techniques, particularly in language modeling using transformer models.
 
 ## Education
 **Moscow State University (MSU)**  
