@@ -12,4 +12,4 @@ PyTorch, JAX, Rust, RL post-training.
 - [GSPO-PyTorch](https://github.com/DenisSud/GSPO-PyTorch) — sequence-level RL for LLMs
 - [aiijc-701w](https://github.com/DenisSud/aiijc-701w) — GRPO for math, multilingual
 - [nixos-config](https://github.com/DenisSud/nixos-config) — NixOS flake (pc + g14)
-- [su-code](https://github.com/su-underscore/su-code) — WIP: coding multiplexer
+- [su-code](https://github.com/su-underscore/code) — WIP: coding multiplexer
