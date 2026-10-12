@@ -1,7 +1,6 @@
 # Denis Sudakov
 
-Undergraduate at Lomonosov Moscow State University. I build ML systems
-end-to-end and ship them.
+Undergraduate at Lomonosov Moscow State University.
 
 **Pinned projects below.** Or browse all [repositories](https://github.com/DenisSud?tab=repositories).
 
